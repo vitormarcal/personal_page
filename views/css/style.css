@@ -35,6 +35,7 @@ p {
 }
 
 .mailme * {
+    margin: 1px;
     font-size: 36px;
     text-align: center;
 }
@@ -68,6 +69,19 @@ nav ul {
 
 nav ul li {
     display: inline;
+}
+
+a {
+    color: #5cc265;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+.follow-icons a {
+    text-decoration: none;
 }
 
 section {
