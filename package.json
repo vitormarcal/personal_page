@@ -1,0 +1,30 @@
+{
+  "name": "vitormarcal",
+  "version": "1.0.0",
+  "description": "My personal page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitormarcal/personal_page.git"
+  },
+  "keywords": [
+    "Vítor",
+    "Marçal",
+    "vitormarcal",
+    "personal",
+    "page"
+  ],
+  "author": "Vítor Marçal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitormarcal/personal_page/issues"
+  },
+  "homepage": "https://github.com/vitormarcal/personal_page#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
