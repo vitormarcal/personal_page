@@ -45,6 +45,10 @@ p {
     width: 50%;
 }
 
+body {
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
 
 header {
     text-align: center;
@@ -67,10 +71,35 @@ nav ul li {
 
 
 section {
+    padding: 1rem 1rem 1rem 2rem;
+    margin: 2rem;
     background-color: #F9F8F2;
+}
+
+article {
 }
 
 footer {
     padding: 5px;
     text-align: center;
+}
+
+
+@media (max-width: 767px) {
+    body {
+       padding: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    body {
+       padding: 0;
+    }
+}
+
+@media (min-width: 1201px) {
+    body {
+        padding-left: 15rem;
+        padding-right: 15rem;
+     }
 }
