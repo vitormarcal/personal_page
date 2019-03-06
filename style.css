@@ -5,6 +5,7 @@
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
     color: #000000;
+    margin: 1px;
 }
 
 h2, h3, h4 {
