@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
@@ -30,13 +33,6 @@ p {
     font-size: 18px;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0px;
-    font-family: 'Roboto Slab', sans-serif;
-    font-size: 24px;
-}
-
 .mailme * {
     font-size: 36px;
     text-align: center;
@@ -53,6 +49,22 @@ nav ul {
 header {
     text-align: center;
 }
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 24px;
+    display: inline;
+}
+
+nav ul li {
+    display: inline;
+}
+
+.welcome {
+}
+
 
 section {
     background-color: #F9F8F2;
